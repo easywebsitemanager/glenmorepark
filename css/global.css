@@ -1,0 +1,76 @@
+.start-soon {
+  color: #fff; }
+
+iframe[name="google_conversion_frame"] {
+  display: none; }
+
+.video-container {
+  position: relative;
+  padding-bottom: 51%;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 40px; }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.page-alexandria-pilates-classes .banner .opening,
+.page-alexandria-pilates-classes .location .address,
+.page-alexandria-pilates-classes .banner .book-button,
+.page-alexandria-pilates-classes .location .book-button {
+  display: none; }
+.page-alexandria-pilates-classes .banner {
+  background-image: none !important;
+  padding-bottom: 90px;
+  position: relative; }
+  @media only screen and (max-width: 749px) {
+    .page-alexandria-pilates-classes .banner {
+      padding-bottom: 30px; } }
+  .page-alexandria-pilates-classes .banner .wrapper {
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    left: 14%; }
+    @media screen and (max-width: 960px) {
+      .page-alexandria-pilates-classes .banner .wrapper {
+        bottom: 20%;
+        left: 10%; } }
+    @media screen and (max-width: 800px) {
+      .page-alexandria-pilates-classes .banner .wrapper {
+        bottom: 30%;
+        left: 0px; } }
+    @media screen and (max-width: 749px) {
+      .page-alexandria-pilates-classes .banner .wrapper {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        margin-top: -10px; } }
+  @media screen and (max-width: 749px) {
+    .page-alexandria-pilates-classes .banner .blue-caption {
+      width: auto;
+      border-bottom: 1px solid #fff; } }
+  @media screen and (max-width: 749px) {
+    .page-alexandria-pilates-classes .banner .address {
+      display: none !important; } }
+  @media screen and (max-width: 749px) {
+    .page-alexandria-pilates-classes .banner .phone {
+      font-size: 24px !important;
+      padding-top: 10px !important;
+      padding-bottom: 10px !important; } }
+  .page-alexandria-pilates-classes .banner .awords-label {
+    position: absolute;
+    z-index: 1;
+    top: 0; }
+  @media screen and (max-width: 767px) {
+    .page-alexandria-pilates-classes .banner .banner-image {
+      display: none !important; } }
+.page-alexandria-pilates-classes #feature-image-wrapper {
+  position: relative;
+  z-index: 0; }
+
+/*# sourceMappingURL=global.css.map */
