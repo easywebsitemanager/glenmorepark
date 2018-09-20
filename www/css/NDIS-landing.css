@@ -1,7 +1,7 @@
 .banner {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url(/landing/ndis-landing-new.jpg) !important; }
+  background-image: url(../images/ndis-landing-new.jpg) !important; }
 
 .blue-caption {
   font-size: 35px;
@@ -14,7 +14,6 @@
 
 .grey-bg .fa-clock-o {
   font-size: 25px; }
-
 .grey-bg .fa-envelope {
   font-size: 20px; }
 
@@ -76,22 +75,21 @@ ul.icon-check li {
 .blogsitesummary {
   margin: 0;
   padding: 0; }
+  .blogsitesummary li {
+    margin-bottom: 20px;
+    list-style: none;
+    margin-left: 0px;
+    font-size: 16px; }
 
-.blogsitesummary li {
-  margin-bottom: 20px;
-  list-style: none;
-  margin-left: 0px;
-  font-size: 16px; }
-
-@media (max-device-width: 768px) {
+@media (max-width: 768px) {
   .banner-physio .blue-caption {
     margin-top: 0; } }
-@media (max-device-width: 414px) {
+@media (max-width: 414px) {
   .banner-physio .blue-caption {
     border-bottom: solid 1px;
     max-width: 96%;
     font-size: 200%; } }
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
   .banner-physio .blue-caption {
     border-bottom: solid 1px;
     max-width: 94%;
